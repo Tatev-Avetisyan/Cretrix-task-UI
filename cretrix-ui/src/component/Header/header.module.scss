@@ -1,0 +1,40 @@
+.headerWrapper {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 234px;
+
+  //   background: linear-gradient(
+  //     0deg,
+  //     rgba(0, 0, 0, 0) 70.26%,
+  //     rgba(0, 0, 0, 0.43) 100%
+  //   );
+  .bg {
+    position: relative;
+  }
+  .user {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 12px;
+    top: 12px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    filter: drop-shadow(2px 4px 12px rgba(0, 0, 0, 0.25));
+  }
+  .text {
+    position: absolute;
+    height: 20px;
+    left: 92px;
+    right: 12px;
+    top: 12px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #ffffff;
+  }
+}
