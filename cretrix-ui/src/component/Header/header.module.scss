@@ -4,14 +4,10 @@
   right: 0px;
   top: 0px;
   bottom: 234px;
-
-  //   background: linear-gradient(
-  //     0deg,
-  //     rgba(0, 0, 0, 0) 70.26%,
-  //     rgba(0, 0, 0, 0.43) 100%
-  //   );
   .bg {
+    width: 100%;
     position: relative;
+    border-radius: 18px;
   }
   .user {
     position: absolute;

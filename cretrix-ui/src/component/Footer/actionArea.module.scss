@@ -1,0 +1,12 @@
+.wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 335px;
+  height: 36px;
+  left: 16px;
+  top: 361px;
+  &:hover {
+    cursor: pointer;
+  }
+}
