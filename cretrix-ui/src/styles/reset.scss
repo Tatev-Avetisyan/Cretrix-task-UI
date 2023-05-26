@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import "./variables/colors.module";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +15,7 @@ body {
   min-height: -webkit-fill-available;
   background-attachment: fixed;
   font-style: normal;
+  font-family: "Roboto", sans-serif;
 }
 
 .main {
@@ -20,6 +24,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3%;
-  background-color: #e5e5e5;
+  background-color: $mainBGColor;
+  
 }

@@ -1,7 +1,4 @@
-import React from "react";
-import Header from "../Header/Header";
-import InfoPart from "../Info/Info";
-import ActionArea from "../Footer/ActionArea";
+import { ActionArea, Header, InfoPart } from "..";
 
 import styles from "./main.module.scss";
 

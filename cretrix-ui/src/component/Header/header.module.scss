@@ -1,3 +1,5 @@
+@import "../../styles/variables/colors.module";
+
 .headerWrapper {
   position: absolute;
   left: 0px;
@@ -7,7 +9,7 @@
   .bg {
     width: 100%;
     position: relative;
-    border-radius: 18px;
+    border-radius: 18px 18px 0 0;
   }
   .user {
     position: absolute;
@@ -16,7 +18,7 @@
     left: 12px;
     top: 12px;
     border-radius: 50%;
-    border: 1px solid #ffffff;
+    border: 1px solid $white;
     filter: drop-shadow(2px 4px 12px rgba(0, 0, 0, 0.25));
   }
   .text {
@@ -31,6 +33,6 @@
     font-size: 14px;
     line-height: 20px;
     text-align: right;
-    color: #ffffff;
+    color: $white;
   }
 }

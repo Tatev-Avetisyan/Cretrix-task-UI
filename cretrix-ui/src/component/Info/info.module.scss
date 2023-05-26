@@ -1,3 +1,5 @@
+@import "../../styles/variables/colors.module";
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -8,12 +10,10 @@
     left: 16px;
     right: 16px;
     bottom: 166px;
-    font-family: "Roboto";
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    color: #212121;
+    color: $blackTitleColor;
   }
   .authorPart {
     display: flex;
@@ -26,11 +26,10 @@
     gap: 3%;
     .name {
       bottom: 130px;
-      font-family: "Roboto";
       font-weight: 500;
       font-size: 14px;
       line-height: 20px;
-      color: #212121;
+      color: $blackTitleColor;
     }
   }
   .progressPart {
@@ -49,14 +48,13 @@
       p {
         left: 16px;
         bottom: 90px;
-        font-family: "Roboto";
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
-        color: #9c9c9c;
+        color: $progressTextColor;
       }
       .percent {
-        color: #4ce77b;
+        color: $progressColor;
       }
     }
     .progressBar {
@@ -65,14 +63,13 @@
       left: 16px;
       right: 16px;
       bottom: 76px;
-      background: #f0f0f0;
       border-radius: 100px;
       &::-webkit-progress-value {
-        background-color: #4ce77b;
+        background-color: $progressColor;
         border-radius: 100px;
       }
       &::-webkit-progress-bar {
-        background-color: #f0f0f0;
+        background-color: $progressBarBGColor;
         border-radius: 100px;
       }
     }
